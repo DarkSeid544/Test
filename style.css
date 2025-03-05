@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    margin: 0;
+    background-color:#6a1b9a;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+display: flex;
+flex-direction: row;
+background-color:white;
+justify-content: center;
+width: 250px;
+height: 500px;
+gap: 30px;
+}
+.card{
+width: 500px;
+background-color: whitesmoke;
+padding: 20px;
+border-radius: 20px;
+text-align: center;
+justify-content: space-between;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid blueviolet;
+}
+.card h3{
+    margin: 10px 0;
+    color: blueviolet;
+}
+.stars p{
+    font-size: 14px;
+    color: #555;
+    margin: 20px;
+}
+.buttons {
+margin-bottom: 10px;
+padding: 40px;
+margin: 10px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 14px;
+border: none;
+}
+.readmore{
+     color: #6a1b9a;
+    background-color: white;
+    border: 2px solid black;
+}
+.readmore :hover{
+    color: aliceblue;
+    background: #6a1b9a;
+}
+.subscribe{
+    color:white;
+    background-color: #6a1b9a;
+    border: 2px solid black;
+}
+.subscribe :hover{
+    color: aliceblue;
+    background: #6a1b9a;
+}
